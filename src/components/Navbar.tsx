@@ -11,10 +11,10 @@ export function Navbar() {
       </Link>
       <div className="flex gap-2">
         <Button asChild variant="ghost" size="sm">
-          <Link href="#publications">Publications</Link>
+          <Link href="#about">About</Link>
         </Button>
         <Button asChild variant="ghost" size="sm">
-          <Link href="#about">About</Link>
+          <Link href="#publications">Publications</Link>
         </Button>
         <Button asChild variant="ghost" size="sm">
           <Link href="#contact">Contact</Link>

@@ -14,7 +14,8 @@ export function Hero() {
           Hi, I'm Jonathan Rodiger
         </h1>
         <p className="max-w-xl text-muted-foreground text-lg md:text-xl">
-          I'm a Senior Bioinformatics Engineer with over 7 years of experience. Welcome to my portfolio.
+          I'm a Senior Bioinformatics Engineer with over 7 years of experience building powerful bioinformatics tools, 
+          interactive web applications, and innovative AI-driven solutions.
         </p>
         <div className="flex justify-center space-x-4 pt-4">
           <Link href="https://github.com/jrodiger" target="_blank" rel="noopener noreferrer">
