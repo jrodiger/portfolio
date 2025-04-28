@@ -10,7 +10,7 @@ export function About() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
                 <p className="text-gray-500 dark:text-gray-400 text-lg leading-relaxed">
-                I'm a Senior Bioinformatics Engineer specializing in developing scalable software solutions, interactive web applications, 
+                I specialize in developing scalable software solutions, interactive web applications, 
                 and robust data pipelines for complex biological analyses. With over 7 years of experience spanning full-stack web development, 
                 relational database optimization, and leveraging large language models for advanced data aggregation, my work consistently 
                 bridges the gap between bioinformatics innovation and practical applications in genomic research and drug discovery. 
