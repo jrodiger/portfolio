@@ -5,7 +5,7 @@ import Link from "next/link";
 interface Publication {
   title: string;
   authors: string;
-  venue: string;
+  publisher: string;
   year: number;
   citations: number;
   url: string;
@@ -13,28 +13,44 @@ interface Publication {
 
 const publications: Publication[] = [
   {
-    title: "Automated Identification of Protein-Ligand Binding Sites for Drug Discovery",
-    authors: "J Rodiger, A Friedman, J Gilmer",
-    venue: "Journal of Chemical Information and Modeling",
+    title: "REPTOR and CREBRF encode key regulators of muscle energy metabolism",
+    authors: "P Saavedra, PA Dumesic, Y Hu, E Filine, P Jouandin, R Binari, J Rodiger, et al.",
+    publisher: "Nature Communications",
     year: 2023,
-    citations: 8,
-    url: "https://pubs.acs.org/doi/10.1021/acs.jcim.3c00788",
+    citations: 14,
+    url: "https://www.nature.com/articles/s41467-023-40595-1",
   },
   {
-    title: "Predicting Protein-Ligand Binding Affinity and Correcting Crystal Structure Binding Poses Using Large Language Models",
-    authors: "J Rodiger, A Friedman",
-    venue: "bioRxiv",
+    title: "Next-generation large-scale binary protein interaction network for Drosophila melanogaster",
+    authors: "HW Tang, K Spirohn, Y Hu, T Hao, IA Kovács, Y Gao, R Binari, J Rodiger, et al.",
+    publisher: "Nature Communications",
     year: 2023,
-    citations: 6,
-    url: "https://www.biorxiv.org/content/10.1101/2023.09.11.557141v1.abstract",
+    citations: 22,
+    url: "https://www.nature.com/articles/s41467-023-37876-0",
   },
   {
-    title: "Improving Protein-Ligand Structure Prediction with Natural Language Processing",
-    authors: "J Rodiger, A Friedman, J Gilmer",
-    venue: "bioRxiv",
-    year: 2023,
-    citations: 4,
-    url: "https://www.biorxiv.org/content/10.1101/2023.02.03.526917v1.abstract",
+    title: "Paralog Explorer: A resource for mining information about paralogs in common research organisms",
+    authors: "Y Hu, B Ewen-Campen, A Comjean, J Rodiger, SE Mohr, N Perrimon",
+    publisher: "Computational and Structural Biotechnology Journal",
+    year: 2022,
+    citations: 12,
+    url: "https://www.sciencedirect.com/science/article/pii/S2001037022005359",
+  },
+  {
+    title: "SNP-CRISPR: A Web Tool for SNP-Specific Genome Editing",
+    authors: "CL Chen, J Rodiger, V Chung, R Viswanatha, SE Mohr, Y Hu, N Perrimon",
+    publisher: "G3",
+    year: 2020,
+    citations: 53,
+    url: "https://academic.oup.com/g3journal/article/10/2/489/6026318",
+  },
+  {
+    title: "Pooled CRISPR Screens in Drosophila Cells",
+    authors: "R Viswanatha, R Brathwaite, Y Hu, Z Li, J Rodiger, P Merckaert, V Chung, et al.",
+    publisher: "Current Protocols in Molecular Biology",
+    year: 2019,
+    citations: 13,
+    url: "https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cpmb.111",
   },
 ];
 
@@ -75,7 +91,7 @@ export function Publications() {
                   <p className="text-gray-500 dark:text-gray-400 mb-2">{pub.authors}</p>
                   <div className="flex items-center justify-between">
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      {pub.venue} • {pub.year}
+                      {pub.publisher} • {pub.year}
                     </p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       Citations: {pub.citations}
