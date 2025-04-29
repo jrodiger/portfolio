@@ -78,7 +78,7 @@ export function Publications() {
             <div className="grid gap-6">
               {publications.map((pub, index) => (
                 <Card key={index} className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">
+                  <h3 className="text-xl font-semibold">
                     <Link 
                       href={pub.url}
                       className="hover:text-primary transition-colors"
@@ -88,7 +88,7 @@ export function Publications() {
                       {pub.title}
                     </Link>
                   </h3>
-                  <p className="text-gray-500 dark:text-gray-400 mb-2">{pub.authors}</p>
+                  <p className="text-gray-500 dark:text-gray-400">{pub.authors}</p>
                   <div className="flex items-center justify-between">
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       {pub.publisher} • {pub.year}
