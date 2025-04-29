@@ -65,7 +65,7 @@ export function Contact() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center">
                 Get in Touch
               </h2>
-              <p className="text-gray-500 dark:text-gray-400 text-lg text-center">
+              <p className="text-muted-foreground text-lg text-center">
                 Have a question or want to work together? Feel free to reach out!
               </p>
             </div>
