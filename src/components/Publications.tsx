@@ -56,7 +56,7 @@ const publications: Publication[] = [
 
 export function Publications() {
   return (
-    <section id="publications" className="flex flex-col items-center justify-center min-h-[60vh] py-12">
+    <section id="publications" className="flex flex-col items-center justify-center min-h-[60vh] py-12 scroll-mt-12">
       <div className="container flex items-center justify-center">
         <div className="w-full max-w-5xl px-4 md:px-6">
           <div className="space-y-8">

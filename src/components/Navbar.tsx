@@ -14,9 +14,14 @@ export function Navbar() {
     { href: "#contact", label: "Contact" },
   ];
 
+  const scrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <nav className="w-full flex items-center justify-between py-6 px-4 md:px-8 border-b border-border bg-background/80 backdrop-blur sticky top-0 z-30">
-      <Link href="/" className="text-lg font-bold tracking-tight whitespace-nowrap">
+      <Link href="#" onClick={scrollToTop} className="text-lg font-bold tracking-tight whitespace-nowrap">
         Jonathan Rodiger
       </Link>
       
