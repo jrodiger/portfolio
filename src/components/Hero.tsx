@@ -12,8 +12,9 @@ export function Hero() {
       <div className="container flex items-center justify-center">
         <div className="w-full max-w-5xl px-4 md:px-6">
           <div className="space-y-4 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-              Hi, I&apos;m Jonathan Rodiger
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
+              Hi, I&apos;m{' '}
+              <span className="whitespace-nowrap">Jonathan Rodiger</span>
             </h1>
             <p className="max-w-xl text-muted-foreground text-lg md:text-xl mx-auto">
               I&apos;m a Senior Bioinformatics Engineer with over 7 years of experience building powerful bioinformatics tools, 
