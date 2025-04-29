@@ -19,6 +19,15 @@ export function Navbar() {
         <Button asChild variant="ghost" size="sm">
           <Link href="#contact">Contact</Link>
         </Button>
+        <Button
+          asChild
+          size="sm"
+          className="bg-white text-black hover:bg-gray-100 hover:text-black"
+        >
+          <a href="/Jonathan Rodiger Resume.pdf" download>
+            Resume
+          </a>
+        </Button>
       </div>
     </nav>
   );
