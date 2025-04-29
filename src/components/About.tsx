@@ -14,7 +14,7 @@ export function About() {
                 and robust data pipelines for complex biological analyses. With over 7 years of experience spanning full-stack web development, 
                 relational database optimization, and leveraging large language models for advanced data aggregation, my work consistently 
                 bridges the gap between bioinformatics innovation and practical applications in genomic research and drug discovery. 
-                I'm passionate about creating tools that not only streamline scientific workflows but also empower researchers to explore 
+                I&apos;m passionate about creating tools that not only streamline scientific workflows but also empower researchers to explore 
                 data intuitively and effectively.
                 </p>
               </div>
