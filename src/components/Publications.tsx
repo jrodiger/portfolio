@@ -62,7 +62,7 @@ export function Publications() {
           <div className="space-y-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Publications</h2>
-              <p className="text-gray-500 dark:text-gray-400 text-lg">
+              <p className="text-muted-foreground text-lg">
                 Selected academic publications and research work. View my complete publication history on{" "}
                 <Link 
                   href="https://scholar.google.com/citations?user=tBd4t0gAAAAJ"
@@ -88,12 +88,12 @@ export function Publications() {
                       {pub.title}
                     </Link>
                   </h3>
-                  <p className="text-gray-500 dark:text-gray-400">{pub.authors}</p>
+                  <p className="text-muted-foreground">{pub.authors}</p>
                   <div className="flex items-center justify-between">
-                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                    <p className="text-sm text-muted-foreground">
                       {pub.publisher} • {pub.year}
                     </p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                    <p className="text-sm text-muted-foreground">
                       Citations: {pub.citations}
                     </p>
                   </div>

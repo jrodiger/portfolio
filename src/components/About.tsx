@@ -9,7 +9,7 @@ export function About() {
             <div className="flex flex-col justify-center space-y-6">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
-                <p className="text-gray-500 dark:text-gray-400 text-lg leading-relaxed">
+                <p className="text-muted-foreground text-lg leading-relaxed">
                 I specialize in developing scalable software solutions, interactive web applications, 
                 and robust data pipelines for complex biological analyses. With over 7 years of experience spanning full-stack web development, 
                 relational database optimization, and leveraging large language models for advanced data aggregation, my work consistently 
@@ -20,7 +20,7 @@ export function About() {
               </div>
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold">Core Strengths</h3>
-                <ul className="space-y-3 text-gray-500 dark:text-gray-400">
+                <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-center">
                     <span className="mr-3 text-primary">•</span>
                     Pipeline Development & Workflow Optimization
