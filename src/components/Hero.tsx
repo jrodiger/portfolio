@@ -11,10 +11,10 @@ export function Hero() {
     <section className="flex flex-col items-center justify-center min-h-[60vh] text-center">
       <div className="space-y-4">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          Hi, I'm Jonathan Rodiger
+          Hi, I&apos;m Jonathan Rodiger
         </h1>
         <p className="max-w-xl text-muted-foreground text-lg md:text-xl">
-          I'm a Senior Bioinformatics Engineer with over 7 years of experience building powerful bioinformatics tools, 
+          I&apos;m a Senior Bioinformatics Engineer with over 7 years of experience building powerful bioinformatics tools, 
           interactive web applications, and innovative AI-driven solutions.
         </p>
         <div className="flex justify-center space-x-4 pt-4">
