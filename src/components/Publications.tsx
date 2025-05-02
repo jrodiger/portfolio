@@ -57,61 +57,57 @@ const publications: Publication[] = [
 export function Publications() {
   return (
     <section id="publications" className="flex flex-col items-center justify-center min-h-[60vh] py-12 scroll-mt-12">
-      <div className="container flex items-center justify-center">
-        <div className="w-full max-w-5xl px-4 md:px-6">
-          <div className="space-y-8">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Publications</h2>
-              <p className="text-muted-foreground text-lg">
-                Selected academic publications and research work. View my complete publication history on{" "}
+      <div className="container max-w-5xl px-4 md:px-6 space-y-8">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Publications</h2>
+          <p className="text-muted-foreground text-lg">
+            Selected academic publications and research work. View my complete publication history on{" "}
+            <Link 
+              href="https://scholar.google.com/citations?user=tBd4t0gAAAAJ"
+              className="text-primary hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Scholar
+            </Link>
+            .
+          </p>
+        </div>
+        <div className="grid gap-6">
+          {publications.map((pub, index) => (
+            <Card key={index} className="p-6">
+              <h3 className="text-xl font-semibold">
                 <Link 
-                  href="https://scholar.google.com/citations?user=tBd4t0gAAAAJ"
-                  className="text-primary hover:underline"
+                  href={pub.url}
+                  className="hover:text-primary transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Google Scholar
+                  {pub.title}
                 </Link>
-                .
-              </p>
-            </div>
-            <div className="grid gap-6">
-              {publications.map((pub, index) => (
-                <Card key={index} className="p-6">
-                  <h3 className="text-xl font-semibold">
-                    <Link 
-                      href={pub.url}
-                      className="hover:text-primary transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {pub.title}
-                    </Link>
-                  </h3>
-                  <p className="text-muted-foreground">{pub.authors}</p>
-                  <div className="flex items-center justify-between">
-                    <p className="text-sm text-muted-foreground">
-                      {pub.publisher} • {pub.year}
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      Citations: {pub.citations}
-                    </p>
-                  </div>
-                </Card>
-              ))}
-            </div>
-            <div className="flex justify-center">
-              <Button asChild variant="outline">
-                <Link 
-                  href="https://scholar.google.com/citations?user=tBd4t0gAAAAJ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View All Publications
-                </Link>
-              </Button>
-            </div>
-          </div>
+              </h3>
+              <p className="text-muted-foreground">{pub.authors}</p>
+              <div className="flex items-center justify-between">
+                <p className="text-sm text-muted-foreground">
+                  {pub.publisher} • {pub.year}
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Citations: {pub.citations}
+                </p>
+              </div>
+            </Card>
+          ))}
+        </div>
+        <div className="flex justify-center">
+          <Button asChild variant="outline">
+            <Link 
+              href="https://scholar.google.com/citations?user=tBd4t0gAAAAJ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View All Publications
+            </Link>
+          </Button>
         </div>
       </div>
     </section>
