@@ -25,7 +25,7 @@ export function Hero() {
               <span className="sr-only">GitHub</span>
             </Button>
           </Link>
-          <Link href="https://www.linkedin.com/in/jonathan-rodiger-4769a715b/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/jonathan-rodiger" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="icon" className="cursor-pointer">
               <LinkedinIcon className="h-4 w-4" />
               <span className="sr-only">LinkedIn</span>
