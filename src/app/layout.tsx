@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jonathan Rodiger | Senior Bioinformatics Engineer",
-  description: "Portfolio of Jonathan Rodiger, a Senior Bioinformatics Engineer with over 7 years of experience in bioinformatics engineering and software development.",
+  title: "Jonathan Rodiger | Data Scientist",
+  description: "Portfolio of Jonathan Rodiger, a Data Scientist with over 7 years of experience in bioinformatics engineering and software development.",
   icons: {
     icon: [
       {
