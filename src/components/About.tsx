@@ -22,11 +22,11 @@ export function About() {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-center">
                 <span className="mr-3 text-primary">•</span>
-                Pipeline Development & Workflow Optimization
+                Cloud Computing & Infrastructure Design
               </li>
               <li className="flex items-center">
                 <span className="mr-3 text-primary">•</span>
-                Cloud Computing & Infrastructure Design
+                Pipeline Development & Workflow Optimization
               </li>
               <li className="flex items-center">
                 <span className="mr-3 text-primary">•</span>
@@ -42,11 +42,11 @@ export function About() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">Technical Expertise</h3>
             <div className="flex flex-wrap gap-3">
+              <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">AWS</span>
               <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">Python</span>
               <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">PostgreSQL</span>
               <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">Django</span>
               <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">Nextflow</span>
-              <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">AWS</span>
               <span className="px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm font-medium">AI Agents</span>
             </div>
           </div>
